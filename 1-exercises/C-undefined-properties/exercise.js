@@ -15,7 +15,7 @@ let car = {
 };
 
 console.log(car["colour"]);
-
+// because the car object does not have a color property 
 // Example 2
 function sayHelloToUser(user) {
   console.log(`Hello ${user.firstName}`);
@@ -26,7 +26,7 @@ let user = {
 };
 
 sayHelloToUser(user);
-
+//because the user object passed to the function does not have a firstname key
 // Example 3
 let myPet = {
   animal: "Cat",
@@ -36,3 +36,4 @@ let myPet = {
 };
 
 console.log(myPet.getName());
+// because the called function does not return anything
